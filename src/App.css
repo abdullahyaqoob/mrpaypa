@@ -1,0 +1,742 @@
+* {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.hello {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.logoTxt {
+  font-size: 30px;
+  font-weight: bold !important;
+  margin-left: -15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.logoTxt:hover {
+  color: white;
+}
+
+.logoTopTxt {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: -60px;
+}
+
+.navbar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "poppins", sans-serif, sans-serif;
+  /* margin-top: -30px; */
+  /* margin-left: -100px; */
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px !important;
+  font-family: "poppins", sans-serif;
+  box-shadow: 3px 0px 11px 4px rgb(206, 151, 223);
+  background-color: white;
+  color: black;
+}
+
+.nav-btn:hover {
+  font-size: 15px !important;
+  background-color: #2c0659;
+  color: white !important;
+}
+
+.primary-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+  box-shadow: 3px 0px 11px 4px rgb(206, 151, 223);
+}
+
+.primary-btn:hover {
+  border: 2px solid white;
+  background-color: #2e0559;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-heading {
+  color: #ac00db;
+  font-size: 38px;
+  /* font-family: "poppins", sans-serif; */
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.hero-img {
+  border-radius: 30px;
+  /* width: 500px; */
+  float: right;
+  margin-top: -90px;
+  margin-right: -50px;
+  /* box-shadow: 3px 0px 11px 4px rgb(113, 47, 133); */
+  /* box-shadow: 3px 0px 11px 4px rgb(230, 230, 230); */
+}
+
+.topNavBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mrpaypalogo {
+  margin-bottom: -20px;
+  margin-top: -40px;
+  margin-left: -40px;
+  width: 170px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  position: absolute;
+  right: 1px;
+  margin-top: -20px;
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white !important;
+}
+
+.hero-subHeading {
+  max-width: 520px;
+}
+
+.cryptoMobileHeading {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 45px;
+}
+
+.cryptoMobileSubHeading {
+  color: rgba(153, 153, 153, 0.3);
+  text-align: center;
+  font-size: 20px;
+}
+
+.tbackgrounImg {
+  background-image: url(./img/back-img.png);
+}
+
+#myId {
+  border: 0;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  max-width: 1200px;
+  box-shadow: 3px 0px 11px 4px rgb(255, 255, 255);
+  height: 660px;
+  width: 100%;
+}
+
+.bottomnavbar {
+  /* box-shadow: 3px 0px 11px 4px rgb(255, 255, 255); */
+  /* background-color: #280657; */
+  border-top: 1px solid rgb(215, 134, 247);
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #000000, #18001f, #000000);
+  /* overflow: hidden !important; */
+}
+
+.liveBoxImg {
+  width: 30px;
+  /* margin-left: -30px;
+  margin-right: -20px; */
+}
+
+.owl-carousel .owl-item img {
+  width: 30px !important;
+}
+
+.livePriceBox {
+  width: 200px;
+  border: 1px solid #290c33;
+  /* box-shadow: 0.2px 0px 4px 2px rgb(255, 255, 255); */
+  margin: 0 auto;
+  padding: 10px 15px;
+  padding-right: 25px;
+  color: rgb(37, 35, 37);
+  /* animation */
+  transition: 0.5s;
+  transform-origin: right top;
+  border-radius: 10px;
+}
+
+.livePriceBox:hover {
+  transform: translate(0px, -18px);
+  color: white;
+  border: 2px solid rgb(189, 158, 197);
+}
+
+.moreCrypto {
+  font-size: 45px;
+}
+
+.LiveRates {
+  position: absolute;
+  left: -20px;
+  background-color: yellow;
+  color: #000;
+  padding: 7px;
+  padding-left: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+  position: fixed;
+  border-radius: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.fa-times {
+  position: absolute;
+  right: 20px;
+  margin-top: -110px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.navlinks {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.navlinks:hover {
+  color: #9c0e8f;
+  border-bottom: 2px solid #9c0e8f;
+}
+
+.m1Pic {
+  width: 220px;
+  margin-top: 90px;
+}
+
+.pPic {
+  width: 410px;
+}
+
+.mBothPics {
+  display: inline;
+}
+
+.m1Txt {
+  margin-top: 100px;
+}
+
+.navbar-toggler {
+  outline: 1px dotted;
+  outline: 5px auto white;
+  padding: 8px 10px;
+}
+
+@media (min-width: 1650px) {
+  .inlineIt {
+    display: inline;
+  }
+}
+
+@media (max-width: 1650px) {
+  .hero-img {
+    margin-top: -120px;
+    margin-right: -50px;
+  }
+  .LiveRates {
+    padding-left: 30px;
+    font-size: 17px;
+  }
+  .fa-arrow-right {
+    font-size: 12px;
+    margin-right: -10px;
+  }
+  .navbar {
+    padding: 0rem 1rem;
+  }
+}
+
+@media (min-width: 990px) {
+  .owlDesk {
+    display: initial;
+  }
+  .owlMob, .owlMobile, .owlMobile2 {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  /* .navbarMain{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px 2px #fff;
+  } */
+  .owlDesk, .owlMobile, .owlMobile2 {
+    display: none;
+  }
+  .owlMob {
+    display: initial;
+  }
+  .hello {
+    padding-left: 40px;
+    overflow: hidden;
+    padding-right: 40px;
+  }
+  .m1Pic {
+    width: 200px;
+    margin-top: 80px;
+  }
+  .pPic {
+    width: 350px;
+    margin-left: -40px;
+  }
+  .tradePic {
+    width: 450px;
+    margin-top: 100px;
+  }
+  .form-inline {
+    display: block;
+  }
+  .hero-img {
+    width: 400px;
+    margin-top: -60px;
+  }
+  .heroTxt {
+    margin-top: -50px;
+  }
+  .LiveRates {
+    top: 200px;
+  }
+  .fa-times {
+    margin-top: -50px;
+  }
+  .hideIt1 {
+    display: none;
+  }
+  .m1Txt {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 890px) {
+  .mrpaypalogo {
+    width: 140px;
+    margin-left: -20px;
+  }
+  .logoTxt {
+    width: 20px;
+  }
+  .hero-img {
+    width: 350px;
+    margin-top: 0px;
+  }
+  .hero-heading {
+    font-size: 35px !important;
+  }
+  .hero-subHeading {
+    font-size: 15px;
+  }
+  .hide3 {
+    display: none;
+  }
+  .moreCrypto {
+    font-size: 35px;
+  }
+  .moreCryptoSub {
+    font-size: 15px;
+  }
+  .primary-btn {
+    font-size: 12px;
+  }
+  .m1Pic {
+    width: 180px;
+    margin-top: 100px;
+  }
+  .pPic {
+    width: 310px;
+  }
+  .tradePic {
+    width: 350px;
+    margin-top: 35px;
+  }
+  .tradeTxt {
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero-img {
+    width: 300px;
+  }
+  .hero-heading {
+    font-size: 30px !important;
+  }
+  .hero-subHeading {
+    font-size: 12px;
+  }
+  .moreCrypto {
+    font-size: 30px;
+  }
+  .moreCryptoSub {
+    font-size: 12px;
+  }
+  .m1Pic {
+    width: 150px;
+  }
+  .pPic {
+    width: 270px;
+  }
+  .tradePic {
+    width: 320px;
+  }
+}
+
+@media (max-width: 700px) {
+  .owlDesk, .owlMob, .owlMobile2 {
+    display: none;
+  }
+  .owlMobile {
+    display: initial;
+  }
+  .pow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .hero-img {
+    width: 280px;
+  }
+  .hero-heading {
+    margin-top: -20px;
+    font-size: 25px;
+  }
+  .hero-subHeading {
+    font-size: 12px;
+  }
+  .moreCrypto {
+    font-size: 28px;
+  }
+  .pPic {
+    width: 250px;
+  }
+  .tradePic {
+    width: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .mrpaypalogo {
+    width: 100px;
+    margin-left: -20px;
+  }
+  .logoTxt {
+    font-size: 22px;
+  }
+  .hero-img {
+    width: 260px;
+    margin-top: 50px;
+  }
+  .LiveRates {
+    top: 150px;
+  }
+  .m1Pic {
+    width: 130px;
+  }
+  .m1Pic {
+    margin-top: 120px;
+  }
+  .pPic {
+    width: 230px;
+  }
+  .tradePic {
+    margin-top: 50px;
+    width: 300px;
+  }
+  .hide2 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hello {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hide4 {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .hello {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .row {
+    width: 100%;
+    display: block;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .hero-heading {
+    width: 200%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .hero-subHeading {
+    width: 200%;
+    text-align: center;
+  }
+  .primaryBtnP {
+    width: 200%;
+    text-align: center;
+  }
+  .heroImg {
+    width: 200%;
+  }
+  .hero-img {
+    width: 400px;
+    margin: 0 auto;
+    float: none;
+  }
+  .heroTxt {
+    margin-left: 10px;
+  }
+  .MoreCryptoDiv {
+    margin-left: 25px;
+  }
+  .cryptoMobileHeading {
+    margin-top: 150px;
+  }
+  .moreCrypto {
+    width: 200%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .moreCryptoSub {
+    width: 200%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .msDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 25px;
+  }
+  .m1Pic {
+    width: 180px;
+  }
+  .tbackgrounImg {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pPic {
+    width: 200px;
+  }
+  .tradeTxt {
+    width: 200%;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .tradeSubTxt {
+    width: 200%;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .tradePic {
+    width: 380px;
+  }
+}
+
+@media (max-width: 500px) {
+
+.cryptoMobileSubHeading {
+  color: rgba(255, 255, 255, 0.4);
+}
+.livePriceBox {
+  color: rgb(139, 139, 139);
+}
+  .hero-img {
+    margin-left: -20px;
+  }
+  .cryptoMobileHeading {
+    font-size: 35px;
+  }
+  .msDiv {
+    margin-left: 15px;
+  }
+  .pPic {
+    width: 180px;
+    margin-left: -30px;
+  }
+  .tradePic {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .owlDesk, .owlMob, .owlMobile {
+    display: none;
+  }
+  .owlMobile2 {
+    display: initial;
+  }
+  .hero-img {
+    margin-left: -30px;
+  }
+  .moreCrypto {
+    font-size: 35px;
+  }
+  .msDiv {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .heroTxt {
+    width: 130%;
+    margin-left: -20px;
+  }
+  .mrpaypalogo {
+    margin-left: -25px;
+  }
+  .logoTxt {
+    margin-left: -20px;
+  }
+  .hero-img {
+    margin-left: -10px;
+  }
+  .navbar-toggler {
+    margin-right: -35px;
+  }
+  .swapDiv {
+    margin-left: 20px;
+  }
+  .pPic {
+    width: 150px;
+    margin-left: -14px;
+  }
+  .footer {
+    width: 107%;
+  }
+}
+
+@media (max-width: 400px) {
+  .heroTxt {
+    width: 120%;
+  }
+  .hero-img {
+    margin-left: -30px;
+  }
+  .swapDiv {
+    margin-left: 0px;
+  }
+  .cryptoMobileHeading {
+    font-size: 33px;
+    margin-left: 0px;
+  }
+  .MoreCryptoDiv {
+    margin-left: 20px;
+  }
+  .msDiv {
+    margin-left: -4px;
+  }
+  .manageCRYPTO {
+    margin-left: 0px;
+  }
+  .pPic {
+    width: 140px;
+    margin-left: -23px;
+  }
+  .tradeDiv {
+    margin-left: -4px;
+  }
+  .tradePic {
+    margin-left: -15px;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .msDiv {
+    margin-left: 0px;
+  }
+  .hero-img {
+    margin-left: -42px;
+  }
+  .m1Pic {
+    width: 160px;
+  }
+  .tbackgrounImg {
+    display: block;
+  }
+  .pPic {
+    width: 350px;
+  }
+  .sndPic {
+    margin-top: -110px;
+  }
+  .tradePic {
+    width: 340px;
+  }
+}
+
+@media (max-width: 380px) {
+  .pPic {
+    width: 340px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tradePic {
+    width: 310px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tradePic {
+    width: 320px;
+  }
+  .pPic {
+    width: 330px;
+  }
+  .m1Pic {
+    width: 150px;
+  }
+}

@@ -1,0 +1,130 @@
+.main-div {
+    border-radius: 3px;
+    width: 500px;
+    margin: 60px auto;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.second-div {
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 1px #e4e4e4;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+}
+.lock-img {
+    max-height: 130px;
+    margin-top: 30px;
+}
+
+.lock-div {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lock-subheading {
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    font-family: fantasy;
+}
+
+.sign-in-sub {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.input-fel {
+    width: 250px;
+    border: none;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgb(163, 163, 163);
+    /* for moving of feild */
+    transition-property: width;
+    transition-duration: 1s;
+    font-size: 13px;
+}
+
+.input-fel:hover {
+    border-bottom: 2px solid rgb(11, 2, 126);
+    /* for moving of feild */
+    width: 230px;
+}
+
+.input-fel:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(11, 2, 126);
+}
+
+.forgot-pass {
+    font-size: 10px;
+    margin-left: 65px;
+    color: rgb(74, 0, 192);
+    display: inline-block;
+    float: none;
+}
+
+.forgot-passww {
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgb(74, 0, 192);
+    display: inline-block;
+}
+
+.already-reg {
+    font-size: 13px;
+    color: rgb(39, 39, 39);
+}
+
+.log-in-loader {
+    padding: 11px 29px;
+    background-color: rgb(40, 0, 93);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.log-in {
+    padding: 11px 29px;
+    background-color: rgb(40, 0, 93);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.log-in:hover {
+    background-color: rgb(231, 231, 231);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+@media screen and (max-width:500px) {
+    #main-div {
+        width: 400px;
+    }
+    .second-div {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #main-div {
+        width: 350px;
+        margin: -90px auto;
+    }
+    .second-div {
+        width: 350px;
+    }
+}

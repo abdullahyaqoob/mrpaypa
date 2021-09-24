@@ -1,0 +1,282 @@
+.main-full-div {
+    height: 100vh;
+  }
+  .top-black {
+    border-radius: 4px;
+    background: black;
+    border: 1px solid black;
+    height: 10px;
+    /* width: 500px; */
+    width: 106.2%;
+    margin-left: -14px;
+  }
+  .heading {
+    font-size: 35px;
+    margin-bottom: -4px;
+    font-weight: normal;
+  }
+  .sub-heading {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .sign-up-sub {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -5px;
+  }
+  
+  .logo-class {
+    /* max-height: 170px; */
+    max-height: 130px;
+    width: 230px;
+    margin-top: 0px;
+    /* margin-bottom: -90px; */
+    height: 200px;
+  }
+  .input-group-addon {
+    position: relative;
+    top: 9px;
+    left: 40px;
+  }
+  
+  .evvelope-class {
+    position: relative;
+    right: -90px;
+    /* top: -2px; */
+  }
+  .form-control {
+    margin: 10px auto;
+    max-width: 220px;
+    height: 32px;
+    border: none;
+    border: 2px solid rgb(168, 168, 168);
+    /* padding-left: 20px; */
+    border-radius: 15px;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+    font-size: 14px;
+    /* for moving of feild */
+    transition-property: max-width;
+    transition-duration: 0.4s;
+    /* transition-delay: 1s; */
+  }
+  .form-control:hover {
+    border: 2px solid rgb(11, 2, 126);
+    /* for moving of feild */
+    max-width: 210px;
+  }
+  .form-control:focus {
+    outline: none;
+    border: 2px solid #4b127a;
+  }
+  
+  .email-add{
+    padding: 2px 40px;
+    padding-left: 2px;
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid rgb(108, 27, 184);
+    /* border-left: 2px solid rgb(241, 241, 241); */
+    position: relative;
+    top: -20px;
+  }
+  
+  .email-add:focus {
+    outline: none;
+  }
+  
+  .recaptchaa {
+    /* margin: 0 auto; */
+    /* position: relative; */
+    /* left: 45px; */
+    /* left: 10%; */
+    margin: 10px 40px;
+  }
+  
+  .btn-control {
+    position: relative;
+    left: 2px;
+    padding: 6px 23px;
+    border: none;
+    background-color: rgb(40, 0, 93);
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    /* margin-top: -5px; */
+    margin-top: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+  }
+  
+  .btn-control-loader {
+    position: relative;
+    left: 2px;
+    padding: 6px 23px;
+    border: none;
+    background-color: rgb(40, 0, 93);
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    /* margin-top: -5px; */
+    margin-top: 10px;
+    margin-bottom: 35px;
+    cursor: pointer;
+  }
+  
+  .btn-control:hover {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    border: 1px solid rgb(160, 160, 160);
+  }
+  
+  @media screen and (max-width:1812px) {
+  .evvelope-class {
+    position: relative;
+    right: -30px;
+  }
+  }
+  @media screen and (min-width:1746px) {
+  .evvelope-class {
+    position: relative;
+    right: -40px;
+  }
+  }
+  @media screen and (max-width:1745px) {
+  .evvelope-class {
+    position: relative;
+    right: -30px;
+  }
+  }
+  @media screen and (max-width:1684px) {
+  .evvelope-class {
+    position: relative;
+    right: -30px;
+  }
+  }
+  @media screen and (max-width:1615px) {
+  .evvelope-class {
+    right: -50px;
+  }
+  }
+  @media screen and (max-width:1615px) {
+  .evvelope-class {
+    right: -40px;
+  }
+  }
+  @media screen and (max-width:1482px) {
+  .evvelope-class {
+    right: -30px;
+  }
+  }
+  @media screen and (max-width:1415px) {
+  .evvelope-class {
+    right: -20px;
+  }
+  .recaptcha {
+    margin: 10px 10px;
+  }
+  }
+  @media screen and (max-width:1350px) {
+  .evvelope-class {
+    right: -10px;
+  }
+  }
+  @media screen and (max-width:1274px) {
+  .evvelope-class {
+    right: 0px;
+  }
+  }
+  @media screen and (max-width:1214px) {
+  .evvelope-class {
+    right: 5px;
+  }
+  }
+  @media screen and (max-width:1178px) {
+  .evvelope-class {
+    right: 10px;
+  }
+  }
+  @media screen and (max-width:1146px) {
+  .evvelope-class {
+    right: 18px;
+  }
+  }
+  @media screen and (max-width:1085px) {
+  .evvelope-class {
+    right: 25px;
+  }
+  }
+  @media screen and (max-width:850px) {
+  .evvelope-class {
+    right: -40px;
+  }
+  }
+  @media screen and (max-width:802px) {
+  .evvelope-class {
+    right: -50px;
+  }
+  }
+  @media screen and (max-width:770px) {
+  .evvelope-class {
+    right: -40px;
+  }
+  .top-black {
+    margin-left: -12px;
+  }
+  }
+  @media screen and (max-width:740px) {
+  .evvelope-class {
+    right: -30px;
+  }
+  }
+  @media screen and (max-width:700px) {
+  .evvelope-class {
+    right: -20px;
+  }
+  }
+  @media screen and (max-width:670px) {
+  .evvelope-class {
+    right: -10px;
+  }
+  }
+  @media screen and (max-width:635px) {
+  .evvelope-class {
+    right: 0px;
+  }
+  .top-black {
+    margin-left: -10px;
+  }
+  }
+  @media screen and (max-width:450px) {
+  .evvelope-class {
+    right: 10px;
+  }
+  }
+  @media screen and (max-width:400px) {
+  .evvelope-class {
+    right: 20px;
+  }
+  }
+  @media screen and (max-width:380px) {
+  .evvelope-class {
+    right: 28px;
+  }
+  }
+  @media screen and (max-width:380px) {
+  .evvelope-class {
+    right: 30px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  }
+  @media screen and (max-width:360px) {
+  .evvelope-class {
+    right: 25px;
+  }
+  .main-full-div {
+    height: 100vh;
+  }
+  }
